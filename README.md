@@ -48,8 +48,8 @@ any of the discs:
 ```
 Init ==
 /\ left = <<1, 2, 3, 100>>
-/\ middle = <<>>
-/\ right = <<>>
+/\ middle = <<100>>
+/\ right = <<100>>
 
 LeftToMiddle == /\ Len(left) > 1
 /\ Head(left) < Head(middle)
